@@ -94,6 +94,71 @@ class Movie {
             "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc0MjQzOTEwMV5BMl5BanBnXkFtZTcwMzE2NTIyMw@@._V1_SX1777_CR0,0,1777,947_AL_.jpg",
           ],
         ),
+        const Movie(
+          title: "The Avengers",
+          year: "2012",
+          rated: "PG-13",
+          released: "04 May 2012",
+          runtime: "143 min",
+          genre: "Action, Sci-Fi, Thriller",
+          director: "Joss Whedon",
+          writer:
+              "Joss Whedon (screenplay), Zak Penn (story), Joss Whedon (story)",
+          actors:
+              "Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth",
+          plot:
+              "Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity.",
+          language: "English, Russian",
+          country: "USA",
+          awards: "Nominated for 1 Oscar. Another 34 wins & 75 nominations.",
+          poster:
+              "http://ia.media-imdb.com/images/M/MV5BMTk2NTI1MTU4N15BMl5BanBnXkFtZTcwODg0OTY0Nw@@._V1_SX300.jpg",
+          metascore: "69",
+          imdbRating: "8.1",
+          imdbVoters: "1,003,301",
+          imdbId: "tt0848228",
+          type: "movie",
+          response: "True",
+          images: [
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMTA0NjY0NzE4OTReQTJeQWpwZ15BbWU3MDczODg2Nzc@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE1MzEzMjcyM15BMl5BanBnXkFtZTcwNDM4ODY3Nw@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMjMwMzM2MTg1M15BMl5BanBnXkFtZTcwNjM4ODY3Nw@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ4NzM2Mjc5MV5BMl5BanBnXkFtZTcwMTkwOTY3Nw@@._V1_SX1777_CR0,0,1777,999_AL_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc3MzQ3NjA5N15BMl5BanBnXk",
+          ],
+        ),
+        const Movie(
+          title: "The Wolf of Wall Street",
+          year: "2013",
+          rated: "R",
+          released: "25 Dec 2013",
+          runtime: "180 min",
+          genre: "Biography, Comedy, Crime",
+          director: "Martin Scorsese",
+          writer: "Terence Winter (screenplay), Jordan Belfort (book)",
+          actors:
+              "Leonardo DiCaprio, Jonah Hill, Margot Robbie, Matthew McConaughey",
+          plot:
+              "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
+          language: "English, French",
+          country: "USA",
+          awards: "Nominated for 5 Oscars. Another 35 wins & 154 nominations.",
+          poster:
+              "http://ia.media-imdb.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_SX300.jpg",
+          metascore: "75",
+          imdbRating: "8.2",
+          imdbVoters: "786,985",
+          imdbId: "tt0993846",
+          type: "movie",
+          response: "True",
+          images: [
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BNDIwMDIxNzk3Ml5BMl5BanBnXkFtZTgwMTg0MzQ4MDE@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc0NzAxODAyMl5BMl5BanBnXkFtZTgwMDg0MzQ4MDE@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMTExMDk1MDE4NzVeQTJeQWpwZ15BbWU4MDM4NDM0ODAx._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg3MTY4NDk4Nl5BMl5BanBnXkFtZTgwNjc0MzQ4MDE@._V1_SX1500_CR0,0,1500,999_AL_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/M/MV5BMTgzMTg4MDI0Ml5BMl5BanBnXkFtZTgwOTY0MzQ4MDE@._V1_SY1000_CR0,0,1553,1000_AL_.jpg",
+          ],
+        ),
       ];
   final String title;
   final String year;
