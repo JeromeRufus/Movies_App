@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:movies_app/UI/MovieDetailsThumbnail.dart';
+import 'package:movies_app/UI/horizontal.dart';
+import 'package:movies_app/UI/moviedetailcast.dart';
+import 'package:movies_app/UI/moviedetailsheaderwithposter.dart';
+import 'package:movies_app/UI/movieextraposter.dart';
 
 import '../models/movie.dart';
 
@@ -68,6 +72,11 @@ class MovieListViewDetails extends StatelessWidget {
       body: ListView(
         children: [
           MovieDetailsThumbnail(thumbnail: movie.images[0]),
+          MovieDetailsHeaderWithPoster(movie: movie),
+          HorizontalLine(),
+          MovieCastDetails(movie: movie),
+          HorizontalLine(),
+          MovieExtraPosters(posters: movie.images),
         ],
       ),
     );
