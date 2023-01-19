@@ -15,8 +15,19 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
-        backgroundColor: Colors.blueGrey.shade400,
+        primarySwatch: Colors.purple,
+        backgroundColor: Colors.amber,
+        canvasColor: Color.fromRGBO(255, 254, 229, 1),
+        accentColor: Colors.white38,
+        fontFamily: 'Raleway',
+        textTheme: ThemeData.light().textTheme.copyWith(
+              bodyText1: TextStyle(
+                color: Color.fromRGBO(20, 51, 51, 1),
+              ),
+              bodyText2: TextStyle(
+                color: Color.fromRGBO(20, 51, 51, 1),
+              ),
+            ),
       ),
       home: MovieListView(),
     );
